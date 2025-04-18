@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Tour</title>
+</head>
+<body>
+    <h1>Summer Tour</h1>
+    <p>Bem-vindo ao Summer Tour 2025! Preencha o formulário abaixo para se cadastrar.</p>
+
+    <form action="#" method="post">
+        <label for="nome">Nome completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="nascimento">Data de nascimento:</label><br>
+        <input type="date" id="nascimento" name="nascimento"><br><br>
+    
+        <label>Gênero:</label><br>
+        <input type="radio" id="masculino" name="genero" value="Masculino">
+        <label for="masculino">Masculino</label><br>
+        <input type="radio" id="feminino" name="genero" value="Feminino">
+        <label for="feminino">Feminino</label><br>
+        <input type="radio" id="outro" name="genero" value="Outro">
+        <label for="outro">Outro</label><br><br>
+
+        <label>Interesses:</label><br>
+            <input type="checkbox" id="dia27" name="interesses" value="dia27">
+            <label for="evento">Dia 27/06</label><br>
+            <input type="checkbox" id="dia28" name="interesses" value="dia28">
+            <label for="backend">Dia 28/06</label><br>
+            <input type="checkbox" id="dia29" name="interesses" value="dia29">
+            <label for="datascience">Dia 29/06</label><br><br>
+    
+            <label for="estado">Estado:</label><br>        
+            <select name="estado" id="estado">
+            <option value="">Selecione</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="RJ">Rio de Janeiro</option>>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="SP">São Paulo</option>
+        </select><br><br>
+          
+          <label for="comentarios">Comentários adicionais:</label><br>
+          <textarea id="comentarios" name="comentarios" rows="4" cols="50" placeholder="Deixe aqui seu comentário..."></textarea><br><br>
+
+          <input type="submit" value="Enviar Cadastro">
+        
+        </form>
+
+        <h2>Programação do Evento</h2>
+        <table border="1">
+        <thead>
+            <tr>
+                <th>Horário</th>
+                <th>Atividade</th>
+                <th>Atração</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>16:00</td>
+                <td>Abertura</td>
+                <td>Jorge Aragão</td>
+            </tr>
+            <tr>
+                <td>18:30</td>
+                <td></td>
+                <td>Péricles</td>
+            </tr>
+            <tr>
+                <td>20:30</td>
+                <td>Atração Principal</td>
+                <td>Zeca Pagodinho</td>
+            </tr>
+        </tbody>
+        </table>
+
+</body>
+</html>
